@@ -8,7 +8,7 @@ import NutritionTable from "../components/common/NutritionTable";
 import ProductCard    from "../components/common/ProductCard";
 import Button         from "../components/common/Button";
 
-const TABS = ["overview", "nutrition", "usage"];
+const TABS = ["overview"];
 
 export default function ProductDetail() {
   const { id } = useParams();
