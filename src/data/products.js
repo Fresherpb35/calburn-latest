@@ -39,7 +39,7 @@ export const PRODUCTS = [
 
   {
     id: "isopure", name: "Isopure",
-    image: "/images/isopure.png",
+    image: "/images/isopuree.png",
     tagline: "100% Whey Isolate", subtitle: "The True Strength of Whey",
     category: "Whey Proteins", badge: "Pro Series", accentColor: "#10b981",
     protein: "31.5g", calories: "132.5", carbs: "3.3g", bcaa: "6.56g", servingSize: "37g",
@@ -197,7 +197,7 @@ export const PRODUCTS = [
 
   {
     id: "l-glutamine", name: "L-Glutamine",
-    image: "/images/l-glutamine.png",
+    image: "/images/lglutamine.png",
     tagline: "Pure Glutamine Powder", subtitle: "Accelerate Recovery. Protect Muscle.",
     category: "Pre Workouts", badge: "Pro Series", accentColor: "#06b6d4",
     protein: "5g", calories: "20", carbs: "0g", bcaa: "—", servingSize: "5g",
@@ -225,7 +225,7 @@ export const PRODUCTS = [
 
   {
     id: "l-arginine-pre", name: "L-Arginine",
-    image: "/images/l-arginine-pre.png",
+    image: "/images/larginine.png",
     tagline: "Nitric Oxide Booster", subtitle: "Maximum Pump. Maximum Power.",
     category: "Pre Workouts", badge: "Pro Series", accentColor: "#f43f5e",
     protein: "3g", calories: "15", carbs: "0g", bcaa: "—", servingSize: "3g",
@@ -466,7 +466,7 @@ export const PRODUCTS = [
 
   {
     id: "l-arginine-tab", name: "L-Arginine",
-    image: "/images/l-arginine-tab.png",
+    image: "/images/larginine.png",
     tagline: "L-Arginine 500mg Capsules", subtitle: "Pump. Circulation. Performance.",
     category: "Tablets Capsule", badge: "Pro Series", accentColor: "#f43f5e",
     protein: "—", calories: "5", carbs: "—", bcaa: "—", servingSize: "1 Capsule",

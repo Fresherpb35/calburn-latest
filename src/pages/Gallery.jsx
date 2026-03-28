@@ -5,12 +5,31 @@ import { Play, X, Grid, List } from "lucide-react";
 import useReveal            from "../hooks/useReveal";
 import { PRODUCTS, NAV_PRODUCT_GROUPS, CATEGORIES } from "../data/products";
 
-const VIDEOS = [
-  { id: 1, title: "Calburn Transformer – Product Overview", duration: "0:32", color: "#f97316" },
-  { id: 2, title: "Masculus Mass – Gain Series",            duration: "0:42", color: "#eab308" },
-  { id: 3, title: "Isopure Whey – Pure Performance",        duration: "0:34", color: "#10b981" },
-];
 
+
+const VIDEOS = [
+  {
+    id: 1,
+    title: "Calburn Transformer – Product Overview",
+    duration: "0:32",
+    color: "#f97316",
+    src: "/images/calburn.mp4",
+  },
+  {
+    id: 2,
+    title: "Masculus Mass – Gain Series",
+    duration: "0:42",
+    color: "#eab308",
+    src: "/images/calburn1.mp4",
+  },
+  {
+    id: 3,
+    title: "Isopure Whey – Pure Performance",
+    duration: "0:34",
+    color: "#10b981",
+    src: "/images/calburn2.mp4",
+  },
+];
 export default function Gallery() {
   useReveal();
   const [filterCat,  setFilterCat]  = useState("All");
@@ -287,29 +306,35 @@ export default function Gallery() {
       </section>
 
       {/* ── Lightbox ── */}
-      {lightbox && (
-        <div
-          className="fixed inset-0 z-[60] bg-black/85 flex items-center justify-center p-4"
-          onClick={() => setLightbox(null)}
-        >
-          <div
-            className="relative bg-dark-900 rounded-2xl overflow-hidden w-full max-w-3xl aspect-video flex items-center justify-center"
-            onClick={(e) => e.stopPropagation()}
-          >
-            <div className="text-center text-white px-8">
-              <Play size={48} className="text-brand-500 mx-auto mb-4" />
-              <p className="font-display text-3xl mb-2">{VIDEOS.find((v) => v.id === lightbox)?.title}</p>
-              <p className="text-dark-400 text-sm">Video placeholder — replace with a &lt;video&gt; tag or YouTube iframe.</p>
-            </div>
-            <button
-              onClick={() => setLightbox(null)}
-              className="absolute top-4 right-4 w-9 h-9 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center text-white transition-colors"
-            >
-              <X size={18} />
-            </button>
-          </div>
-        </div>
-      )}
+     {lightbox && (
+  <div
+    className="fixed inset-0 z-[60] bg-black/85 flex items-center justify-center p-4"
+    onClick={() => setLightbox(null)}
+  >
+    <div
+      className="relative bg-dark-900 rounded-2xl overflow-hidden w-full max-w-3xl aspect-video"
+      onClick={(e) => e.stopPropagation()}
+    >
+      <video
+        controls
+        autoPlay
+        className="w-full h-full object-contain bg-black"
+      >
+        <source
+          src={VIDEOS.find((v) => v.id === lightbox)?.src}
+          type="video/mp4"
+        />
+      </video>
+
+      <button
+        onClick={() => setLightbox(null)}
+        className="absolute top-4 right-4 w-9 h-9 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center text-white"
+      >
+        <X size={18} />
+      </button>
+    </div>
+  </div>
+)}
     </>
   );
 }
