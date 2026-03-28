@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Base ── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html  { scroll-behavior: smooth; }
+body  {
+  font-family: "Rajdhani", sans-serif;
+  background: #ffffff;
+  color: #1a1a1a;
+  overflow-x: hidden;
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar       { width: 5px; }
+::-webkit-scrollbar-track { background: #0d0d0d; }
+::-webkit-scrollbar-thumb { background: #f97316; border-radius: 4px; }
+
+/* ── Reveal-on-scroll ── */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.reveal.visible      { opacity: 1; transform: translateY(0); }
+.reveal.delay-100    { transition-delay: 0.10s; }
+.reveal.delay-200    { transition-delay: 0.20s; }
+.reveal.delay-300    { transition-delay: 0.30s; }
+.reveal.delay-400    { transition-delay: 0.40s; }
+
+/* ── Diagonal clip ── */
+.clip-bottom { clip-path: polygon(0 0, 100% 0, 100% 88%, 0 100%); }
+.clip-top    { clip-path: polygon(0 12%, 100% 0, 100% 100%, 0 100%); }
+
+/* ── Orange gradient text ── */
+.text-orange-grad {
+  background: linear-gradient(135deg, #f97316, #c2410c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
