@@ -12,14 +12,14 @@ const OFFICES = [
     company: "AGNIHOTRIS INTERNATIONAL",
     address: "Corp.off.:105, 1st floor, Sai Shradha CHS, Goregaon west, Mumbai-400062",
     phone  : "+91 9598753567, +91 8318544070",
-    email  : "info@calburnnutrition.com",
+    email  : "info@Caalburnnutrition.com",
   },
   {
     label  : "East India Office",
     company: "AGNIHOTRIS INTERNATIONAL",
     address: "114 A, Dhan Devi Khanna Road, Near Chanditala, Phoolbagan, Kolkata-700054",
     phone  : "+91 9598753567, +91 8318544070",
-    email  : "info@calburnnutrition.com",
+    email  : "info@Caalburnnutrition.com",
   },
   {
     label  : "North India Office",

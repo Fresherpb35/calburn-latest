@@ -1,5 +1,5 @@
 /* ─────────────────────────────────────────────────────────────
-   CALBURN NUTRITION  –  Master product data
+   Caalburn  –  Master product data
    ───────────────────────────────────────────────────────────── */
 
 export const PRODUCTS = [
@@ -13,7 +13,7 @@ export const PRODUCTS = [
     protein: "25g", calories: "121", carbs: "3.30g", bcaa: "6.56g", servingSize: "33g",
     flavors: ["Chocolate", "Kesar Kulfi", "Kesar Badam"], sizes: ["2KG", "5KG", "10KG"],
     suggestedUsage: "75 Gram approx.(2 scoop) in 180-200ml of water or milk twice a day or as recommended by a licensed nutritionist.",
-    description: "The most reliable whey protein concentrate and whey protein isolate have been sourced from quality international producers and used as the building blocks of Calburn Nutrition Whey. Team Calburn researched this zero-sugar formula to help body builders and athletes achieve a lean muscular body.",
+    description: "The most reliable whey protein concentrate and whey protein isolate have been sourced from quality international producers and used as the building blocks of Caalburn Whey. Team Caalburn researched this zero-sugar formula to help body builders and athletes achieve a lean muscular body.",
     whenToTake: [
       { label: "Post Workout",  text: "Consume within 30 minutes after training for optimal muscle protein synthesis." },
       { label: "Between Meals", text: "Use as a high-protein snack between meals to meet daily protein requirements." },
@@ -45,7 +45,7 @@ export const PRODUCTS = [
     protein: "31.5g", calories: "132.5", carbs: "3.3g", bcaa: "6.56g", servingSize: "37g",
     flavors: ["Chocolate", "Kesar Kulfi", "Kesar Badam"], sizes: ["2LBS", "4LBS"],
     suggestedUsage: "75 Gram approx.(2 scoop) in 180-200ml of water or milk twice a day or as recommended by a licensed nutritionist.",
-    description: "Calburn 100% Whey Isopure is rapidly absorbed and delivers a fast supply of amino acids to drive protein synthesis. It is dually processed using scientifically advanced micro filtration to ensure an isolated whey protein that contains one of the highest percentages of protein with almost zero fat and lactose.",
+    description: "Caalburn 100% Whey Isopure is rapidly absorbed and delivers a fast supply of amino acids to drive protein synthesis. It is dually processed using scientifically advanced micro filtration to ensure an isolated whey protein that contains one of the highest percentages of protein with almost zero fat and lactose.",
     whenToTake: [
       { label: "Post Workout", text: "Consume within 30 minutes after your workout for optimal muscle recovery." },
       { label: "Morning",      text: "Have a serving first thing in the morning to kickstart muscle protein synthesis." },
@@ -78,7 +78,7 @@ export const PRODUCTS = [
     protein: "54g", calories: "584", carbs: "76.50g", bcaa: "5.5g", servingSize: "150g",
     flavors: ["Chocolate", "Kesar Kulfi", "Kesar Badam"], sizes: ["1KG", "2KG", "3KG", "5KG"],
     suggestedUsage: "75 gram approx.(2 scoop) in 180-200ml of water or milk twice a day or as recommended by a licensed nutritionist.",
-    description: "Calburn Nutrition Hulk Mass Gainer provides vitamins, minerals, amino acids, high quality protein and carbs to help fuel your muscles, preserve muscle energy supplies and help to reduce muscle breakdown during intense exercise. Each 150g serving provides a 54g dose of premium muscle building protein made from 5 unique sources.",
+    description: "Caalburn Hulk Mass Gainer provides vitamins, minerals, amino acids, high quality protein and carbs to help fuel your muscles, preserve muscle energy supplies and help to reduce muscle breakdown during intense exercise. Each 150g serving provides a 54g dose of premium muscle building protein made from 5 unique sources.",
     whenToTake: [
       { label: "Post Workout",      text: "Use as your post workout recovery shake for maximum muscle repair." },
       { label: "High Protein Meal", text: "Use as a high protein meal between meals to support continuous growth." },
@@ -110,7 +110,7 @@ export const PRODUCTS = [
     protein: "54g", calories: "564", carbs: "76.50g", bcaa: "5.5g", servingSize: "150g",
     flavors: ["Chocolate", "Kesar Kulfi", "Kesar Badam"], sizes: ["1KG", "2KG", "3KG", "5KG"],
     suggestedUsage: "75 gram approx.(2 scoop) in 180-200ml of water or milk twice a day or as recommended by a licensed nutritionist.",
-    description: "Putting on size requires a balance of heavy training and quality nutrition. Calburn Nutrition Masculus Mass Gainer provides vitamins, minerals, amino acids, high quality protein and carbs to help fuel your muscles, preserve muscle energy supplies and help to reduce muscle breakdown during intense exercise.",
+    description: "Putting on size requires a balance of heavy training and quality nutrition. Caalburn Masculus Mass Gainer provides vitamins, minerals, amino acids, high quality protein and carbs to help fuel your muscles, preserve muscle energy supplies and help to reduce muscle breakdown during intense exercise.",
     whenToTake: [
       { label: "Post Workout",      text: "Use as your post workout recovery shake for maximum muscle repair." },
       { label: "High Protein Meal", text: "Use as a high protein meal between meals to support muscle growth." },
@@ -143,7 +143,7 @@ export const PRODUCTS = [
     protein: "54g", calories: "778", carbs: "130g", bcaa: "6.05g", servingSize: "150g",
     flavors: ["Chocolate", "Kesar Kulfi", "Kesar Badam"], sizes: ["1KG", "2KG", "3KG", "5KG"],
     suggestedUsage: "75 Gram approx.(2 scoop) in 180-200ml of water or milk twice a day or as recommended by a licensed nutritionist.",
-    description: "Without enough of the right carbs, quality proteins and healthy fats to complement your training you want to achieve maximum gain. The Calburn Mass Transformer provides a ratio of nutrients known to accelerate increase in lean mass and exercise performance — each 150g serving at 778 calories, 54g of protein and 130g of important carbs.",
+    description: "Without enough of the right carbs, quality proteins and healthy fats to complement your training you want to achieve maximum gain. The Caalburn Mass Transformer provides a ratio of nutrients known to accelerate increase in lean mass and exercise performance — each 150g serving at 778 calories, 54g of protein and 130g of important carbs.",
     whenToTake: [
       { label: "Between Meals", text: "Drink 75-150gm serving between meals to maintain positive nitrogen balance and support a high calorie diet." },
       { label: "Post Workout",  text: "Begin drinking 75-150gm serving 30 to 45 minutes following exercise to support maximum recovery." },
@@ -177,7 +177,7 @@ export const PRODUCTS = [
     protein: "3g", calories: "45", carbs: "6g", bcaa: "2g", servingSize: "15g",
     flavors: ["Blue Raspberry", "Watermelon", "Green Apple"], sizes: ["150g", "300g"],
     suggestedUsage: "Mix 1 scoop (15g) in 250ml cold water and consume 20-30 minutes before workout.",
-    description: "Calburn Phantom is an advanced pre-workout formula engineered to maximize training intensity, focus and endurance. Packed with scientifically dosed ingredients to fuel explosive workouts and delay fatigue.",
+    description: "Caalburn Phantom is an advanced pre-workout formula engineered to maximize training intensity, focus and endurance. Packed with scientifically dosed ingredients to fuel explosive workouts and delay fatigue.",
     whenToTake: [{ label: "Pre Workout", text: "Consume 20-30 minutes before your training session for maximum effect." }],
     features: [
       { title: "Energy Boost",   body: "Sustained energy without crashes." },
@@ -203,7 +203,7 @@ export const PRODUCTS = [
     protein: "5g", calories: "20", carbs: "0g", bcaa: "—", servingSize: "5g",
     flavors: ["Unflavored"], sizes: ["150g", "300g", "500g"],
     suggestedUsage: "Mix 1 scoop (5g) in 250ml of water or juice. Take post-workout or before bed.",
-    description: "Calburn L-Glutamine is pure pharmaceutical grade glutamine powder. It is the most abundant amino acid in muscle tissue, playing a critical role in muscle recovery, immune function and gut health.",
+    description: "Caalburn L-Glutamine is pure pharmaceutical grade glutamine powder. It is the most abundant amino acid in muscle tissue, playing a critical role in muscle recovery, immune function and gut health.",
     whenToTake: [
       { label: "Post Workout", text: "Take immediately after training to kickstart muscle recovery." },
       { label: "Before Bed",   text: "Take before bed to support overnight muscle repair and immune function." },
@@ -231,7 +231,7 @@ export const PRODUCTS = [
     protein: "3g", calories: "15", carbs: "0g", bcaa: "—", servingSize: "3g",
     flavors: ["Unflavored"], sizes: ["150g", "300g"],
     suggestedUsage: "Mix 1 scoop (3g) in 250ml of water 30 minutes before workout.",
-    description: "Calburn L-Arginine is a premium nitric oxide precursor that supports blood flow, muscle pumps and overall cardiovascular performance.",
+    description: "Caalburn L-Arginine is a premium nitric oxide precursor that supports blood flow, muscle pumps and overall cardiovascular performance.",
     whenToTake: [{ label: "Pre Workout", text: "Take 30 minutes before your workout to maximize blood flow and pumps." }],
     features: [
       { title: "Nitric Oxide",   body: "Boosts NO production for massive muscle pumps." },
@@ -255,7 +255,7 @@ export const PRODUCTS = [
     protein: "0g", calories: "0", carbs: "0g", bcaa: "—", servingSize: "5g",
     flavors: ["Unflavored"], sizes: ["100g", "250g", "500g"],
     suggestedUsage: "Mix 1 scoop (5g) in 250ml water. Take pre or post workout daily.",
-    description: "Calburn Creatine Monohydrate is the most researched sports supplement on the market. It replenishes ATP stores in muscles allowing for increased strength, power output and high-intensity exercise performance.",
+    description: "Caalburn Creatine Monohydrate is the most researched sports supplement on the market. It replenishes ATP stores in muscles allowing for increased strength, power output and high-intensity exercise performance.",
     whenToTake: [
       { label: "Pre Workout",  text: "Take before training to maximize strength and power output." },
       { label: "Post Workout", text: "Take after training to replenish ATP stores and support muscle recovery." },
@@ -282,7 +282,7 @@ export const PRODUCTS = [
     protein: "7g", calories: "30", carbs: "0g", bcaa: "7g", servingSize: "9g",
     flavors: ["Watermelon", "Mango", "Green Apple"], sizes: ["180g", "360g"],
     suggestedUsage: "Mix 1 scoop (9g) in 250ml cold water. Take during or after workout.",
-    description: "Calburn BCAA provides a scientifically validated 2:1:1 ratio of Leucine, Isoleucine and Valine — the three branched chain amino acids responsible for muscle protein synthesis, reducing muscle breakdown and speeding recovery.",
+    description: "Caalburn BCAA provides a scientifically validated 2:1:1 ratio of Leucine, Isoleucine and Valine — the three branched chain amino acids responsible for muscle protein synthesis, reducing muscle breakdown and speeding recovery.",
     whenToTake: [
       { label: "During Workout", text: "Sip during training to fuel muscles and prevent catabolism." },
       { label: "Post Workout",   text: "Take immediately after training to accelerate muscle recovery." },
@@ -312,7 +312,7 @@ export const PRODUCTS = [
     protein: "5g", calories: "60", carbs: "8g", bcaa: "3g", servingSize: "20g",
     flavors: ["Blue Raspberry", "Tropical Punch"], sizes: ["200g", "400g"],
     suggestedUsage: "Mix 1 scoop (20g) in 300ml cold water and consume 20-30 minutes before workout.",
-    description: "Calburn One Shot is the ultimate all-in-one pre-workout solution. One single scoop delivers everything you need — energy, focus, pump, endurance and strength — all in one perfectly dosed formula.",
+    description: "Caalburn One Shot is the ultimate all-in-one pre-workout solution. One single scoop delivers everything you need — energy, focus, pump, endurance and strength — all in one perfectly dosed formula.",
     whenToTake: [{ label: "Pre Workout", text: "Take 20-30 minutes before workout for complete pre-workout benefits." }],
     features: [
       { title: "All-In-One",  body: "Complete pre-workout in a single scoop." },
@@ -339,7 +339,7 @@ export const PRODUCTS = [
     protein: "4g", calories: "55", carbs: "7g", bcaa: "2.5g", servingSize: "18g",
     flavors: ["Thunder Berry", "Mango Storm", "Citrus Blast"], sizes: ["180g", "360g"],
     suggestedUsage: "Mix 1 scoop (18g) in 250ml cold water and consume 25-30 minutes before workout. Do not exceed 1 scoop per day.",
-    description: "Calburn Thor is the most powerful pre-workout formula in our lineup. Inspired by the god of thunder, Thor delivers god-level strength, focus and endurance to help you push past your limits every single session.",
+    description: "Caalburn Thor is the most powerful pre-workout formula in our lineup. Inspired by the god of thunder, Thor delivers god-level strength, focus and endurance to help you push past your limits every single session.",
     whenToTake: [{ label: "Pre Workout", text: "Take 25-30 minutes before your most intense training sessions." }],
     features: [
       { title: "God-Level Energy",  body: "Maximum energy formula for elite athletes." },
@@ -367,7 +367,7 @@ export const PRODUCTS = [
     packing: "60 Capsule", mrp: "₹799/-",
     flavors: [], sizes: ["60 Capsules"],
     suggestedUsage: "Take 1-2 capsules daily with meals or as recommended by a healthcare professional.",
-    description: "Calburn Omega-3 Fish Oil 1000mg provides a rich source of EPA and DHA essential fatty acids. These Omega-3s are critical for cardiovascular health, brain function, joint mobility and reducing inflammation throughout the body.",
+    description: "Caalburn Omega-3 Fish Oil 1000mg provides a rich source of EPA and DHA essential fatty acids. These Omega-3s are critical for cardiovascular health, brain function, joint mobility and reducing inflammation throughout the body.",
     whenToTake: [{ label: "With Meals", text: "Take with meals to improve absorption and reduce any fishy aftertaste." }],
     features: [
       { title: "1000mg Fish Oil",   body: "High-potency omega-3 fish oil per capsule." },
@@ -394,7 +394,7 @@ export const PRODUCTS = [
     packing: "60 Tablets", mrp: "₹599/-",
     flavors: [], sizes: ["60 Tablets"],
     suggestedUsage: "Take 1 tablet daily with breakfast or as recommended by a healthcare professional.",
-    description: "Calburn Multi Vitamin is a comprehensive daily multivitamin designed for active individuals. Packed with 24 essential vitamins and minerals to support energy, immunity, recovery and overall health.",
+    description: "Caalburn Multi Vitamin is a comprehensive daily multivitamin designed for active individuals. Packed with 24 essential vitamins and minerals to support energy, immunity, recovery and overall health.",
     whenToTake: [{ label: "With Breakfast", text: "Take with your morning meal for best absorption and all-day energy support." }],
     features: [
       { title: "24 Vitamins",    body: "Complete spectrum of essential vitamins and minerals." },
@@ -422,7 +422,7 @@ export const PRODUCTS = [
     packing: "60 Tablets", mrp: "₹449/-",
     flavors: [], sizes: ["60 Tablets"],
     suggestedUsage: "Take 1-2 tablets daily with meals or as recommended by a healthcare professional.",
-    description: "Calburn Calcium with Vitamin D3 provides the essential minerals needed for strong bones, teeth and muscle function. Vitamin D3 enhances calcium absorption making this the most effective bone health supplement.",
+    description: "Caalburn Calcium with Vitamin D3 provides the essential minerals needed for strong bones, teeth and muscle function. Vitamin D3 enhances calcium absorption making this the most effective bone health supplement.",
     whenToTake: [{ label: "With Meals", text: "Take with meals to maximize calcium absorption in the body." }],
     features: [
       { title: "500mg Calcium",  body: "High dose elemental calcium per tablet." },
@@ -448,7 +448,7 @@ export const PRODUCTS = [
     packing: "60 Tablets", mrp: "₹499/-",
     flavors: [], sizes: ["60 Tablets"],
     suggestedUsage: "Take 1 tablet daily with a meal or as recommended by a healthcare professional.",
-    description: "Calburn Biotin 10000mcg is a high-potency biotin supplement that supports healthy hair growth, strong nails, clear skin and energy metabolism. Essential for anyone experiencing hair thinning or brittle nails.",
+    description: "Caalburn Biotin 10000mcg is a high-potency biotin supplement that supports healthy hair growth, strong nails, clear skin and energy metabolism. Essential for anyone experiencing hair thinning or brittle nails.",
     whenToTake: [{ label: "With Meal", text: "Take once daily with any meal for consistent results over 8-12 weeks." }],
     features: [
       { title: "10000mcg Biotin",   body: "High-potency dose for visible results." },
@@ -473,7 +473,7 @@ export const PRODUCTS = [
     packing: "60 Capsules", mrp: "₹549/-",
     flavors: [], sizes: ["60 Capsules"],
     suggestedUsage: "Take 2 capsules daily — 1 before workout and 1 before bed — or as recommended by a healthcare professional.",
-    description: "Calburn L-Arginine capsules provide a convenient way to supplement this essential amino acid. L-Arginine is a precursor to nitric oxide, supporting improved blood circulation, muscle pumps and cardiovascular health.",
+    description: "Caalburn L-Arginine capsules provide a convenient way to supplement this essential amino acid. L-Arginine is a precursor to nitric oxide, supporting improved blood circulation, muscle pumps and cardiovascular health.",
     whenToTake: [
       { label: "Pre Workout", text: "Take before workout for improved pumps and blood flow." },
       { label: "Before Bed",  text: "Take before bed to support growth hormone production." },
@@ -501,7 +501,7 @@ export const PRODUCTS = [
     packing: "60 Capsules", mrp: "₹899/-",
     flavors: [], sizes: ["60 Capsules"],
     suggestedUsage: "Take 2 capsules daily with meals or as recommended by a healthcare professional. For adults only.",
-    description: "Calburn Testosterone Booster is a natural herbal formula designed to support healthy testosterone levels in men. Contains a blend of clinically studied natural ingredients including Ashwagandha, Tribulus Terrestris and Zinc.",
+    description: "Caalburn Testosterone Booster is a natural herbal formula designed to support healthy testosterone levels in men. Contains a blend of clinically studied natural ingredients including Ashwagandha, Tribulus Terrestris and Zinc.",
     whenToTake: [{ label: "With Meals", text: "Take with breakfast and dinner for consistent testosterone support." }],
     features: [
       { title: "Natural Formula",        body: "Herbal blend with no synthetic hormones." },

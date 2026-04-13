@@ -24,7 +24,7 @@ export default function Products() {
   return (
     <>
       <PageHero
-        eyebrow="Calburn Nutrition"
+        eyebrow="Caalburn"
         title="Our Products"
         subtitle="Premium quality supplements scientifically formulated for serious athletes and fitness enthusiasts."
       />

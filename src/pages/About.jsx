@@ -33,7 +33,7 @@ export default function About() {
   return (
     <>
       <PageHero
-        eyebrow="Calburn Nutrition"
+        eyebrow="Caalburn"
         title="About Us"
         subtitle="Setting the standard in the nutritional supplement industry through truth, quality, and cutting-edge science."
       />
@@ -44,10 +44,10 @@ export default function About() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
 
             <div className="reveal">
-              <SectionTitle eyebrow="Our Story" heading="Calburn Nutrition" />
+              <SectionTitle eyebrow="Our Story" heading="Caalburn" />
               <div className="space-y-4 text-dark-500 leading-relaxed text-[15px]">
                 <p>
-                  Calburn Nutrition sets the standard in the nutritional supplement industry by demanding
+                  Caalburn sets the standard in the nutritional supplement industry by demanding
                   truth in labeling, ingredient safety and product potency, all while remaining on the
                   cutting-edge of nutritional science.
                 </p>
@@ -59,7 +59,7 @@ export default function About() {
                 </p>
                 <p>
                   From scientific research and new product discovery to the manufacturing and packaging
-                  processes, Calburn Nutrition takes pride in our rigorous approach to ensuring quality.
+                  processes, Caalburn takes pride in our rigorous approach to ensuring quality.
                   Our commitment to quality extends to our interactions with you in our stores and after
                   you buy our products.
                 </p>
@@ -90,7 +90,7 @@ export default function About() {
                   ))}
                 </ul>
                 <blockquote className="mt-8 pt-6 border-t border-white/10 text-dark-400 text-sm italic leading-relaxed">
-                  "For more than a decade, Calburn Nutrition has been a brand name synonymous with
+                  "For more than a decade, Caalburn has been a brand name synonymous with
                   premium-quality and top-of-the-line sports nutritional products."
                 </blockquote>
               </div>
@@ -99,8 +99,51 @@ export default function About() {
         </div>
       </section>
 
+      {/* ── Manufacturing Information ── */}
+      <section className="py-16 bg-gray-50 border-t border-b border-gray-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-3xl mx-auto text-center">
+            <SectionTitle 
+              eyebrow="Manufacturing" 
+              heading="Made With Integrity" 
+              center 
+            />
+            
+            <div className="mt-10 bg-white rounded-3xl p-10 shadow-sm">
+              <div className="inline-flex items-center justify-center w-16 h-16 bg-brand-100 text-brand-500 rounded-2xl mb-6">
+                🏭
+              </div>
+              
+              <h3 className="text-xl font-semibold text-dark-900 mb-6">Manufactured By</h3>
+              
+              <div className="text-dark-600 leading-relaxed text-[15px]">
+                <p className="font-medium text-dark-900">
+                  Prokartt India Industries Pvt. Ltd.
+                </p>
+                <p>
+                  Khasra No. 1036, Mauza Central Hope Town,<br />
+                  Camp Road, Selaqui,<br />
+                  Dehradun – 248197, Uttarakhand
+                </p>
+              </div>
+
+              <div className="mt-8 pt-8 border-t border-gray-100">
+                <p className="text-sm text-dark-500">
+                  <span className="font-medium text-dark-700">FSSAI License No.:</span>{" "}
+                  <span className="font-mono tracking-wider">12625999000137</span>
+                </p>
+              </div>
+            </div>
+
+            <p className="text-dark-400 text-xs mt-8 max-w-md mx-auto">
+              All Caalburn products are manufactured in a FSSAI-licensed facility under strict quality control standards.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* ── Core Values ── */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTitle
             eyebrow="What Drives Us"
@@ -136,7 +179,7 @@ export default function About() {
       <StatsBar />
 
       {/* ── Welcome to Our Gym ── */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
@@ -145,7 +188,7 @@ export default function About() {
                 <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_50%_70%,rgba(249,115,22,0.18),transparent_65%)]" />
                 <img
                   src="/images/hero-man.png"
-                  alt="Calburn Athlete"
+                  alt="Caalburn Athlete"
                   onError={(e) => { e.target.style.display='none'; }}
                   className="relative z-10 w-full h-auto object-contain drop-shadow-2xl"
                 />
@@ -154,7 +197,7 @@ export default function About() {
 
             <div className="reveal delay-200">
               <SectionTitle
-                eyebrow="About Calburn Nutrition"
+                eyebrow="About Caalburn"
                 heading={"Welcome\nTo Our Gym"}
               />
               <div className="space-y-4 text-dark-500 text-sm leading-relaxed">
@@ -164,7 +207,7 @@ export default function About() {
                   have top quality products which are the best.
                 </p>
                 <p>
-                  At Calburn Nutrition, we guarantee authenticity of our sports nutritional supplements.
+                  At Caalburn, we guarantee authenticity of our sports nutritional supplements.
                   Therefore we meticulously verify products at every possible customer touch point. We
                   randomly assess the quality of our products available in the market.
                 </p>

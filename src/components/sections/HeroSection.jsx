@@ -79,9 +79,13 @@ export default function HeroSection() {
 
           {/* Left – text */}
           <div>
-            <p className="text-brand-500 text-xs font-bold uppercase tracking-[.4em] mb-4">
-              Calburn Nutrition
-            </p>
+           <p className="text-brand-500 text-xs font-bold uppercase tracking-[.4em] mb-2">
+  Caalburn
+</p>
+
+<p className="text-white/70 text-sm mb-4 tracking-wide">
+  Changed the name, not the trust
+</p>
 
             <div key={active} className="animate-fade-up">
               <h1 className="font-display text-6xl sm:text-7xl xl:text-8xl text-white leading-none">

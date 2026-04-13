@@ -9,24 +9,24 @@ import { PRODUCTS, NAV_PRODUCT_GROUPS, CATEGORIES } from "../data/products";
 const VIDEOS = [
   {
     id: 1,
-    title: "Calburn Transformer – Product Overview",
+    title: "Caalburn Transformer – Product Overview",
     duration: "0:32",
     color: "#f97316",
-    src: "/images/calburn.mp4",
+    src: "/images/Caalburn.mp4",
   },
   {
     id: 2,
     title: "Masculus Mass – Gain Series",
     duration: "0:42",
     color: "#eab308",
-    src: "/images/calburn1.mp4",
+    src: "/images/Caalburn1.mp4",
   },
   {
     id: 3,
     title: "Isopure Whey – Pure Performance",
     duration: "0:34",
     color: "#10b981",
-    src: "/images/calburn2.mp4",
+    src: "/images/Caalburn2.mp4",
   },
 ];
 
@@ -200,7 +200,7 @@ export default function Gallery() {
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-14 w-full">
           <p className="text-brand-500 text-[10px] sm:text-xs font-bold uppercase tracking-[.35em] mb-2">
-            Calburn Nutrition
+            Caalburn
           </p>
           <h1 className="font-display text-5xl sm:text-7xl lg:text-8xl text-white leading-none mb-5">
             GALLERY

@@ -1,4 +1,4 @@
-# Calburn Nutrition – React + Tailwind CSS Website
+# Caalburn – React + Tailwind CSS Website
 
 ## Quick Start
 ```bash
@@ -12,7 +12,7 @@ Opens at http://localhost:3000
 ## Complete Folder & File Structure
 
 ```
-calburn-nutrition/
+Caalburn-nutrition/
 │
 ├── public/
 │   ├── index.html

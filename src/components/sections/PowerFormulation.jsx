@@ -29,7 +29,7 @@ export default function PowerFormulation() {
               {!athleteErr ? (
                 <img
                   src="/images/hero-athlete.png"
-                  alt="Calburn Athlete"
+                  alt="Caalburn Athlete"
                   onError={() => setAthleteErr(true)}
                   className="relative z-10 w-full h-auto object-contain drop-shadow-2xl"
                 />
@@ -54,9 +54,9 @@ export default function PowerFormulation() {
           {/* ── Right – copy ── */}
           <div className="reveal delay-200">
             <SectionTitle
-              eyebrow="About Calburn Nutrition"
+              eyebrow="About Caalburn"
               heading="A Power Packed Formulation"
-              sub="Calburn Nutrition sets the standard in the nutritional supplement industry by demanding truth in labeling, ingredient safety and product potency."
+              sub="Caalburn sets the standard in the nutritional supplement industry by demanding truth in labeling, ingredient safety and product potency."
             />
 
             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-8">

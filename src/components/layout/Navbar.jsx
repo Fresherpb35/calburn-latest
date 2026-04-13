@@ -63,11 +63,11 @@ export default function Navbar() {
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2 select-none flex-shrink-0">
           <span className="font-display text-2xl tracking-widest text-white">
-            <span className="text-brand-500">CAL</span>BURN
+            <span className="text-brand-500">CAAL</span>BURN
           </span>
-          <span className="hidden sm:block text-[10px] text-dark-300 uppercase tracking-[.3em] font-semibold">
+          {/* <span className="hidden sm:block text-[10px] text-dark-300 uppercase tracking-[.3em] font-semibold">
             Nutrition
-          </span>
+          </span> */}
         </Link>
 
         {/* Desktop nav */}
