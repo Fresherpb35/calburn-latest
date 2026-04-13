@@ -12,21 +12,21 @@ const VIDEOS = [
     title: "Caalburn Transformer – Product Overview",
     duration: "0:32",
     color: "#f97316",
-    src: "/images/Caalburn.mp4",
+    src: "/images/Calburn.mp4",
   },
   {
     id: 2,
     title: "Masculus Mass – Gain Series",
     duration: "0:42",
     color: "#eab308",
-    src: "/images/Caalburn1.mp4",
+    src: "/images/Calburn1.mp4",
   },
   {
     id: 3,
     title: "Isopure Whey – Pure Performance",
     duration: "0:34",
     color: "#10b981",
-    src: "/images/Caalburn2.mp4",
+    src: "/images/Calburn2.mp4",
   },
 ];
 
