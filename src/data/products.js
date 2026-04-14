@@ -72,7 +72,7 @@ export const PRODUCTS = [
   /* ── WEIGHT GAINER ─────────────────────────────────── */
   {
     id: "hulk", name: "Hulk",
-    image: "/images/hulk.jpeg",
+    image: "/images/hulk-Photoroom.png",
     tagline: "Premium Weight Gainer", subtitle: "Explosive Size & Power",
     category: "Weight Gainer", badge: "Pro Series", accentColor: "#3b82f6",
     protein: "54g", calories: "584", carbs: "76.50g", bcaa: "5.5g", servingSize: "150g",
@@ -104,7 +104,7 @@ export const PRODUCTS = [
 
   {
     id: "masculus-mass", name: "Masculus Mass",
-    image: "/images/muscular.jpeg",
+    image: "/images/muscular-Photoroom.png",
     tagline: "High Protein Mass Gainer", subtitle: "Build Serious Size & Strength",
     category: "Weight Gainer", badge: "Pro Series", accentColor: "#eab308",
     protein: "54g", calories: "564", carbs: "76.50g", bcaa: "5.5g", servingSize: "150g",
@@ -137,7 +137,7 @@ export const PRODUCTS = [
   /* ── MASS GAINER ───────────────────────────────────── */
   {
     id: "transformer", name: "Transformer",
-    image: "/images/transformer.jpeg",
+    image: "/images/transformer-Photoroom.png",
     tagline: "Evolution Balanced Sports Nutrition", subtitle: "Maximum Gains In Lean Mass And Performance",
     category: "Mass Gainer", badge: "Pro Series", accentColor: "#f97316",
     protein: "54g", calories: "778", carbs: "130g", bcaa: "6.05g", servingSize: "150g",
@@ -249,7 +249,7 @@ export const PRODUCTS = [
 
   {
     id: "creatine", name: "Creatine",
-    image: "/images/ccc.jpeg",
+    image: "/images/creatine copy.png",
     tagline: "Monohydrate Creatine", subtitle: "Strength. Power. Performance.",
     category: "Pre Workouts", badge: "Pro Series", accentColor: "#f97316",
     protein: "0g", calories: "0", carbs: "0g", bcaa: "—", servingSize: "5g",

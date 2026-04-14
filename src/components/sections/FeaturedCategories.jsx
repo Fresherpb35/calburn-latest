@@ -8,12 +8,10 @@ import SectionTitle from "../common/SectionTitle";
 export default function FeaturedCategories() {
   const [imgErrors, setImgErrors] = useState({});
 
-  // ✅ Exactly 4 products
   const featuredProducts = useMemo(() => {
     return PRODUCTS.slice(0, 4);
   }, []);
 
-  // Debug: Log how many products we have
   console.log("Featured Products:", featuredProducts.length, featuredProducts);
 
   return (
@@ -32,35 +30,34 @@ export default function FeaturedCategories() {
             <Link
               key={p.id}
               to={`/products/${p.id}`}
-              className={`reveal delay-${Math.min(i % 5, 4) * 100} group relative overflow-hidden rounded-3xl bg-dark-900 aspect-square flex flex-col justify-end hover:scale-[1.04] transition-all duration-300 shadow-2xl`}
+              className={`reveal delay-${Math.min(i % 5, 4) * 100} group relative overflow-hidden rounded-3xl 
+                         bg-white border border-gray-100 aspect-square flex flex-col justify-end 
+                         hover:scale-[1.04] transition-all duration-300 shadow-xl hover:shadow-2xl`}
             >
-              {/* Glow */}
+              {/* Subtle Glow */}
               <div
-                className="absolute inset-0 opacity-20 group-hover:opacity-35 transition-opacity duration-300"
+                className="absolute inset-0 opacity-10 group-hover:opacity-20 transition-opacity duration-300"
                 style={{
                   background: `radial-gradient(circle at 50% 35%, ${p.accentColor || "#f97316"}, transparent 70%)`,
                 }}
               />
 
-              {/* Product Image with better fallback */}
-              {p.image && !imgErrors[p.id] ? (
-                <img
-                  src={p.image}
-                  alt={p.name}
-                  onError={() => {
-                    console.log(`Image failed for ${p.name}`);
-                    setImgErrors((e) => ({ ...e, [p.id]: true }));
-                  }}
-                  className="absolute inset-0 w-full h-full object-contain object-center p-8 
-                             group-hover:scale-110 transition-transform duration-500"
-                  loading="lazy"
-                />
-              ) : (
-                /* Strong Fallback - Always visible */
-                <div
-                  className="absolute inset-0 flex items-center justify-center bg-dark-800/50"
-                  aria-hidden="true"
-                >
+              {/* Product Image */}
+              <div className="absolute inset-0 flex items-center justify-center bg-white">
+                {p.image && !imgErrors[p.id] ? (
+                  <img
+                    src={p.image}
+                    alt={p.name}
+                    onError={() => {
+                      console.log(`Image failed for ${p.name}`);
+                      setImgErrors((e) => ({ ...e, [p.id]: true }));
+                    }}
+                    className="w-[85%] h-[85%] object-contain object-center 
+                               group-hover:scale-110 transition-transform duration-500"
+                    loading="lazy"
+                  />
+                ) : (
+                  /* Clean Fallback */
                   <div className="text-center">
                     <span
                       className="font-display text-8xl block mb-3"
@@ -68,15 +65,15 @@ export default function FeaturedCategories() {
                     >
                       {p.name ? p.name[0] : "?"}
                     </span>
-                    <p className="text-white text-sm font-medium px-4">
+                    <p className="text-gray-800 text-sm font-medium px-4">
                       {p.name || "Product"}
                     </p>
                   </div>
-                </div>
-              )}
+                )}
+              </div>
 
-              {/* Gradient Overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-dark-900/95 via-dark-900/60 to-transparent" />
+              {/* Gradient Overlay - Only at the bottom */}
+              <div className="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-black/90 via-black/60 to-transparent" />
 
               {/* Product Info */}
               <div className="relative z-10 p-6 sm:p-8">
@@ -86,7 +83,7 @@ export default function FeaturedCategories() {
                 >
                   {p.name ? p.name.toUpperCase() : "PRODUCT"}
                 </p>
-                <p className="text-dark-300 text-sm uppercase tracking-widest mt-3">
+                <p className="text-white/80 text-sm uppercase tracking-widest mt-3">
                   {p.category || "Category"}
                 </p>
               </div>
