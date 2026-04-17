@@ -137,7 +137,7 @@ export const PRODUCTS = [
   /* ── MASS GAINER ───────────────────────────────────── */
   {
     id: "transformer", name: "Transformer",
-    image: "/images/TRANSFORMER.jpeg",
+    image: "/images/transformer.jpeg",
     tagline: "Evolution Balanced Sports Nutrition", subtitle: "Maximum Gains In Lean Mass And Performance",
     category: "Mass Gainer", badge: "Pro Series", accentColor: "#f97316",
     protein: "54g", calories: "778", carbs: "130g", bcaa: "6.05g", servingSize: "150g",
